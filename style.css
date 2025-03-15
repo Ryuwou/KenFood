@@ -654,8 +654,8 @@ nav li {
 @media screen and (max-width: 768px) {
     nav ul {
         flex-direction: column;
-        align-items: flex-start; /* Aligne à gauche */
-        padding-left: 20px; /* Décale légèrement pour éviter d’être collé au bord */
+        align-items: flex-start; 
+        padding-left: 20px; 
     }
 
     nav li {
@@ -663,23 +663,21 @@ nav li {
     }
 
     nav a {
-        font-size: 0.9em; /* Réduit la taille du texte */
+        font-size: 0.9em; 
     }
 }
 
-
-
 @media screen and (max-width: 768px) {  
     #banniere_description {
-        bottom: -50px;  /* Ajuste la position */
-        font-size: 0.8em; /* Réduit la taille du texte si trop grand */
-        padding: 10px; /* Ajuste l'espacement */
-        width: 95%; /* Évite que ça dépasse */
+        bottom: -50px;  
+        font-size: 0.8em; 
+        padding: 10px; 
+        width: 95%; 
     }
 
     .bouton_rouge {
-        font-size: 1em; /* Diminue la taille du bouton */
-        padding: 2px 5px; /* Réduit le padding */
+        font-size: 1em; 
+        padding: 2px 5px; 
     }
 }
 
