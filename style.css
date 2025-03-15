@@ -47,8 +47,6 @@ header {
 }
 
 
-
-
 #header_container {
     background-color: rgba(255, 255, 255, 0.9); 
     padding: 10px 20px;
@@ -207,10 +205,10 @@ nav a:hover
     margin-top: 15px;
     height: 200px;
     border-radius: 5px;
-    background: url('images/sanfrancisco.jpg') no-repeat;
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
+position: relative;  
 }
 
 #banniere_description
@@ -236,7 +234,6 @@ nav a:hover
     position: absolute;
     right: 5px;
     bottom: 5px;
-    background: url('images/fond_degraderouge.png') repeat-x;
     border: 1px solid #760001;
     border-radius: 5px;
     font-size: 1.2em;
@@ -343,11 +340,7 @@ aside img
 }
 
 
-footer
-{
-    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
-    padding-top: 25px;
-}
+
 
 footer p, footer ul
 {
@@ -375,33 +368,13 @@ footer h1
     width: 35%;
 }
 
-#mes_amis
-{
-    width: 31%;
-}
+
 
 #mes_photos img
 {
     border: 1px solid #181818;
     margin-right: 2px;
 }
-
-#mes_amis ul
-{
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 0;
-    width: 48%;
-    list-style-image: url('images/ico_liensexterne.png');
-    padding-left: 2px;
-}
-
-#mes_amis a
-{
-    text-decoration: none;
-    color: #760001;
-}
-
 
 section h1 {
     font-size: 2em;  
@@ -669,23 +642,44 @@ h1, p {
 
 nav ul {
     display: flex;
-    flex-wrap: wrap; /* Permet de passer à la ligne si besoin */
-    justify-content: center; /* Centre le menu */
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
 
 nav li {
-    display: block; /* S'assure que chaque élément est visible */
-    margin: 10px 0; /* Ajoute un espace entre les liens */
+    display: block; 
+    margin: 10px 0; 
 }
 
 @media screen and (max-width: 768px) {
     nav ul {
-        flex-direction: column; /* Empile les liens sur mobile */
-        text-align: center;
+        flex-direction: column;
+        align-items: flex-start; /* Aligne à gauche */
+        padding-left: 20px; /* Décale légèrement pour éviter d’être collé au bord */
     }
 
     nav li {
-        margin: 5px 0; /* Moins d'espace entre chaque lien */
+        margin: 5px 0;
+    }
+
+    nav a {
+        font-size: 0.9em; /* Réduit la taille du texte */
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {  
+    #banniere_description {
+        bottom: -50px;  /* Ajuste la position */
+        font-size: 0.8em; /* Réduit la taille du texte si trop grand */
+        padding: 10px; /* Ajuste l'espacement */
+        width: 95%; /* Évite que ça dépasse */
+    }
+
+    .bouton_rouge {
+        font-size: 1em; /* Diminue la taille du bouton */
+        padding: 2px 5px; /* Réduit le padding */
     }
 }
 
