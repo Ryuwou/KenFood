@@ -1,0 +1,693 @@
+
+
+body
+{
+    background: url('img/TestFond2.jpg');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 2em; 
+    margin: 10px 0; 
+}
+
+
+header {
+    background: url('img/Fond1.jpg') repeat-x;
+    background-position: -500px -190px; 
+}
+
+
+
+#menu_navigation {
+    position: relative;  
+    z-index: 10;  
+    background-color: white; 
+    padding: 10px 0; 
+}
+
+#banniere_header {
+    width: 100%; 
+    height: 20px; 
+    object-fit: cover; 
+    width: 100%;
+    height: auto; 
+    border: none; 
+}
+
+
+
+
+#header_container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 10px 20px;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%; 
+    margin: auto; 
+}
+
+
+#logo {
+    height: 50px; 
+}
+
+
+#titre_principal {
+    display: flex;
+    align-items: center;
+}
+
+#titre_principal h1 {
+    font-size: 1.5em;
+    margin-left: 10px; 
+    font-family: "Arial", sans-serif;
+}
+
+
+
+
+#menu_navigation {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.4); 
+    padding: 10px 0;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px; 
+    padding: 0;
+    margin: 0;
+}
+
+
+nav li {
+    margin-right: 10px; 
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background 0.3s;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); 
+}
+
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px;
+}
+
+nav {
+    background: transparent !important; 
+    border: none;
+}
+
+nav, #menu_navigation, nav ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+
+
+
+#titre_principal {
+    display: flex;
+    align-items: center; 
+}
+
+
+
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-top: -5px; 
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+nav
+{
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/sanfrancisco.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); 
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.bouton_rouge
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+aside {
+    max-width: 600px; 
+    width: 80%; 
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    overflow: hidden; 
+    word-wrap: break-word; 
+}
+
+
+
+
+aside img {
+    transform: scale(1.2); 
+}
+
+aside p {
+    font-size: 16px; 
+}
+
+
+
+aside h1 {
+    text-align: center;
+    letter-spacing: normal; 
+}
+
+article
+{
+    width: 625px;
+    margin-right: 15px;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    position: relative;
+    width: 235px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+#photo_zozor
+{
+    text-align: center;
+}
+
+#photo_zozor img
+{
+    border: 1px solid #181818;
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+
+
+footer
+{
+    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
+    padding-top: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+#tweet, #mes_photos, #mes_amis
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tweet
+{
+    width: 28%;
+}
+
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#mes_amis ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
+
+
+section h1 {
+    font-size: 2em;  
+    margin-block: 10px;  
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#image_banniere {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+#photo_kenza img {
+    max-width: 100%;
+    height: auto;
+    width: 150px; 
+}
+
+#photo_kenza {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+#photo_kenza img {
+    width: 150px; 
+    height: auto;
+    border-radius: 10px; 
+    display: block;
+}
+
+.logo-reseaux {
+    width: 40px; 
+    height: auto; 
+    margin: 5px; 
+}
+
+.logos-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 10px; 
+}
+
+.logo-reseaux {
+    width: 40px; 
+    height: auto; 
+}
+
+.texte_cuisine {
+    font-size: 1.2em; 
+    line-height: 1.5; 
+}
+
+#tweet {
+    background-color: #e9f5fe; 
+    padding: 15px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    max-width: 500px; 
+    margin: 0 auto; 
+    font-family: Arial, sans-serif; 
+    border-left: 5px solid #636363; 
+}
+
+#tweet h1 {
+    font-size: 1.3em; 
+    color: #414141; 
+    font-weight: normal; 
+    margin-bottom: 10px; 
+}
+
+#tweet p {
+    font-size: 1em; 
+    line-height: 1.5;
+    color: #333; 
+}
+
+#tweet .time {
+    font-size: 0.9em; 
+    color: #657786; 
+    margin-top: 5px; 
+}
+
+footer {
+    display: flex;
+    align-items: flex-start; 
+    gap: 30px; 
+    padding: 20px;
+}
+
+#tweet {
+    background-color: #e9f5fe; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    width: 60%; 
+}
+
+#mes_photos {
+    background-color: #f9f9f9; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    width: 35%; 
+}
+
+#mes_photos img {
+    width: 22%; 
+    margin-right: 10px; 
+    border-radius: 5px; 
+}
+
+#tweet h1, #mes_photos h1 {
+    font-size: 1.3em;
+    color: #5b5b5c; 
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#tweet p, #mes_photos p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+}
+
+#tweet .time {
+    font-size: 0.9em;
+    color: #657786;
+    margin-top: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; 
+    gap: 30px; 
+    padding: 20px;
+}
+
+#tweet {
+    background-color: #e9f5fe; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%; 
+}
+
+#mes_photos {
+    background-color: #f9f9f9; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%; 
+}
+
+
+#mes_photos img {
+    width: 100%; 
+    max-width: 100px; 
+    height: auto; 
+    margin: 10px;
+}
+
+#tweet .time {
+    font-size: 0.9em;
+    color: #657786;
+    margin-top: 5px;
+}
+
+#mes_partenaires .partenaire {
+    margin-bottom: 10px;
+}
+#mes_partenaires .partenaire a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+h1, p {
+    color: white;
+}
+
+#mes_partenaires h1,
+#mes_partenaires .partenaire a {
+    color: white;
+    text-decoration: none; 
+}
+
+#mes_partenaires .partenaire a:hover {
+    color: #ddd;
+}
+
+
+@media screen and (max-width: 768px) {
+    #bloc_page {
+        width: 95%;
+        margin: auto;
+    }
+
+    #header_container {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    nav a {
+        font-size: 1.1em;
+        padding: 8px 15px;
+    }
+
+    #banniere_image {
+        height: 150px;
+        background-size: cover;
+    }
+
+    article, aside {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #mes_photos img {
+        width: 45%;
+        margin: 5px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #tweet, #mes_photos {
+        width: 90%;
+    }
+
+    .logos-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo-reseaux {
+        width: 30px;
+    }
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne si besoin */
+    justify-content: center; /* Centre le menu */
+}
+
+nav li {
+    display: block; /* S'assure que chaque élément est visible */
+    margin: 10px 0; /* Ajoute un espace entre les liens */
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Empile les liens sur mobile */
+        text-align: center;
+    }
+
+    nav li {
+        margin: 5px 0; /* Moins d'espace entre chaque lien */
+    }
+}
+
+
+
